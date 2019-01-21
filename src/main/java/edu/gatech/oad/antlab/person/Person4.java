@@ -31,14 +31,7 @@ public class Person4 {
      */
     private String calc(String input) {
       //Person 4 put your implementation here
-      if (input != null) {
-        String incrInput = input;
-        String word = "";
-        for (int i = 0; i < incrInput.length; i++) {
-          word += (char) (incrInput.charAt(i) + 1);
-        }
-        return word;
-      }
+     
       return null;
     }
     
